@@ -65,7 +65,7 @@ AutomationExerciseTask/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/AutomationExerciseTask.git
+git clone https://github.com/miramakrm/AutomationExerciseTask.git
 cd AutomationExerciseTask
 ```
 
