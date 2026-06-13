@@ -16,6 +16,12 @@ A test automation suite built with **Java + Selenium 4 + TestNG** targeting [aut
 > **Note:** ChromeDriver is managed automatically via WebDriverManager — no manual driver setup needed.
 
 ---
+## Tech Stack
+- Java
+- Selenium 4
+- TestNG
+- Maven
+- WebDriverManager
 
 ## Project Structure
 
@@ -147,6 +153,10 @@ screenshots/<TestName>_<timestamp>.png
 ```
 
 ---
+## Execution Notes
+- Uses ThreadLocal WebDriver for parallel readiness
+- Explicit waits only (no Thread.sleep())
+- Ads handling implemented for automationexercise.com iframe ads
 
 ## Author
 
